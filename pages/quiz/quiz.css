@@ -17,6 +17,8 @@
     --bg-acessibilidade:#f6e7ff;
     --primary-text-color: #313e51;
     --segundary-text-color: #626c7f;
+    --green:#26d782;
+    --red:#ee5454;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
@@ -153,7 +155,12 @@ main {
 }
 
 .alternativas label:has(input:checked) {
-    
+    outline: 3px solid var(--purple);
+
+    & span {
+        background: var(--purple);
+        color: var(--white);
+    }
 }
 
 .alternativas input {
