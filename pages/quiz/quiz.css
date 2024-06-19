@@ -148,7 +148,6 @@ main {
 
 .barra_progresso div {
     height: 100%;
-    width: 60%;
     background-color: var(--purple);
     border-radius: 999px;
 }
@@ -223,7 +222,7 @@ main {
     width: 40px;
     height: 40px;
     background: var(--bg-span);
-    color: var(--bg-span);
+    color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
